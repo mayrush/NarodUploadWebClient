@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MainForm_OpenFileDialog_Filter_All_Files__" xml:space="preserve">
+    <value>Все файлы (*.*)|*.*</value>
+  </data>
+  <data name="MainForm_Open__" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="MainForm_Upload__" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="MainForm_Tabs_General__" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="MainForm_Tabs_Settings__" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="MainForm_OpenFileDialog_Caption__" xml:space="preserve">
+    <value>Выбор файла для загрузки на Яндекс.Диск</value>
+  </data>
+  <data name="MainForm_BUploadClick_Files_To_Upload__" xml:space="preserve">
+    <value>Количество файлов для загрузки: </value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="arc32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arc32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arc64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arc64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="document32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\document32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="document64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\document64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="music32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\music32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="music64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\music64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picture32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picture32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picture64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picture64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soft32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soft32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soft64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soft64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unknown32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unknown32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unknown64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unknown64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinned" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unpinned" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unpinned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilesProcess_Timer1Tick__Kb_sek_" xml:space="preserve">
+    <value> Кб/сек.</value>
+  </data>
+  <data name="FilesProcess_Timer1Tick__b" xml:space="preserve">
+    <value> б.</value>
+  </data>
+  <data name="folder32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="root32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\root32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="root64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\root64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arc32_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arc32_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arc64_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arc64_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="document32_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\document32_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="document64_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\document64_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="music32_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\music32_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="music64_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\music64_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picture32_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picture32_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picture64_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picture64_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soft32_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soft32_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soft64_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soft64_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unknown32_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unknown32_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unknown64_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unknown64_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder32_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder32_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder64_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder64_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="root32_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\root32_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="root64_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\root64_2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainForm_tsFolder_Click_Select_folder" xml:space="preserve">
+    <value>Выберите папку</value>
+  </data>
+  <data name="MainForm_tsFolder_Click_OK" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="MainForm_TsUploadClick_Files_" xml:space="preserve">
+    <value>Файлы:</value>
+  </data>
+  <data name="MainIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainIcon.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chfolder_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chfolder_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="date_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\date_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="faq_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\faq_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="idea_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\idea_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mail_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mail_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reload_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reload_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="send_user_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\send-user_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="setting_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\setting_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainForm_InitializeSettingForm_Memorize_last_folder_on_exit" xml:space="preserve">
+    <value>Запоминать последнюю папку при выходе</value>
+  </data>
+  <data name="MainForm_InitializeSettingForm_Login_" xml:space="preserve">
+    <value>Пользователь:</value>
+  </data>
+  <data name="MainForm_InitializeSettingForm_Password__" xml:space="preserve">
+    <value>Пароль: </value>
+  </data>
+  <data name="MainForm_InitializeSettingForm_Uploading" xml:space="preserve">
+    <value>Загрузка</value>
+  </data>
+  <data name="MainForm_InitializeSettingForm_Show_Uploading_Form_In_Taskbar" xml:space="preserve">
+    <value>Отображать окна загрузки в таскбаре</value>
+  </data>
+  <data name="MainForm_InitializeSettingForm_Opacity_Uploading_Form__" xml:space="preserve">
+    <value>Прозрачность окна загрузки:</value>
+  </data>
+  <data name="MainForm_InitializeSettingForm_View__" xml:space="preserve">
+    <value>Отображение</value>
+  </data>
+  <data name="MainForm_InitializeSettingForm_Icon_Themes_" xml:space="preserve">
+    <value>Темы значков</value>
+  </data>
+  <data name="MainForm_InitializeSettingForm_Тheme_1" xml:space="preserve">
+    <value>Тема 1</value>
+  </data>
+  <data name="MainForm_InitializeSettingForm_Theme_2" xml:space="preserve">
+    <value>Тема 2</value>
+  </data>
+  <data name="MainForm_InitializeSettingForm_Files_To_Folder_After_Upload_" xml:space="preserve">
+    <value>Распределять файлы по папкам после загрузки</value>
+  </data>
+  <data name="Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainForm_SendLinks_Message_sended_" xml:space="preserve">
+    <value>Сообщение успешно отправленно по адресу: </value>
+  </data>
+  <data name="pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pause.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\play.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="view_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\view_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uploading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Uploading.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pauseico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pause.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="playico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\play.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="info_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
